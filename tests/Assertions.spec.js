@@ -59,13 +59,14 @@ test('Assertions Test', async({page})=>{
     const monthOptions = await page.locator("select[name='DateOfBirthMonth'] option")
     await expect(monthOptions).toHaveCount(13)
 
+    
+
 
 
 
 
 
     
-
 
 
 })
