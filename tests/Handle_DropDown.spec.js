@@ -9,11 +9,12 @@ test("handle drop down", async ({ page }) => {
   await page.locator("#country").selectOption({ value: "canada" });
   await page.locator("#country").selectOption({ index: "1" }); // all 4 type of select methods are same
 */
-  // assertions - check number of options in drop-down (approch-1)
+  /*
+// assertions - check number of options in drop-down (approch-1)
 
-  //const options = await page.locator("#country option");
-  //await expect(options).toHaveCount(10);
-
+  const options = await page.locator("#country option");
+  await expect(options).toHaveCount(10);
+*/
   //check number of options in drop-down (approch-2)
 
   //const options = await page.$$("#country option");
