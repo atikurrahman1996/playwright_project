@@ -32,4 +32,11 @@ test("upload multiple files", async ({ page }) => {
   await page.locator("#filesToUpload").setInputFiles([]);
 
   await page.waitForTimeout(5000);
+
+  //
+
+  await expect(
+    page.locator("//li[normalize-space()='No Files Selected']")
+  ).toHaveText("No Files Selected");
+  await page.waitForTimeout(3000);
 });
