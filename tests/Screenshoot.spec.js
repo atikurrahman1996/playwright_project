@@ -22,3 +22,5 @@ test.only("Elements screenshot", async ({ page }) => {
     path: "tests/Screenshoot/" + Date.now() + "StorePage.png",
   });
 });
+
+// if we want to take automatic screenshoot for test > go to> config.js file add > screenshoot: "on" under use section
