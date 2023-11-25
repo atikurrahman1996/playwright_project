@@ -15,4 +15,5 @@ test("Test3", async ({ page }) => {
 // by default we can see HTML report
 // to see report in list format -use "list" in the config.js file under reporter or write  npx playwright test --reporter=list in the terminal
 // to see line report - npx playwright test --reporter=line or add "line" in config file
-//to see json report - npx playwright test --reporter=json  or add reporter: [['json', { outputFile: 'results.json' }]]
+//to see json report - npx playwright test --reporter=json  or add reporter: [['json', { outputFile: 'results.json' }]] in config file
+// to see JUnit reporter - npx playwright test --reporter=junit or add reporter: [['junit', { outputFile: 'results.xml' }]], in config file

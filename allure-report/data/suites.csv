@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 25 22:19:31 BDT 2023","Sat Nov 25 22:19:34 BDT 2023","2677","chromium","AllureReports.spec.js","","","","Test2",""
+"passed","Sat Nov 25 22:19:29 BDT 2023","Sat Nov 25 22:19:31 BDT 2023","2925","chromium","AllureReports.spec.js","","","","Test1",""
+"passed","Sat Nov 25 22:19:34 BDT 2023","Sat Nov 25 22:19:38 BDT 2023","4095","chromium","AllureReports.spec.js","","","","Test3",""
