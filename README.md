@@ -1,4 +1,6 @@
-# playwright_project
+Automating--websites-using-Playwright-JavaScript
+
+
 ***To create a playwright project : 
 
 -Install > VS Code, NodeJs
